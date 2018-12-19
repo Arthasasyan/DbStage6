@@ -6,7 +6,14 @@
       <e p="App.xaml" t="Include" />
       <e p="App.xaml.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Client" t="Include" />
+      <e p="Client" t="Include">
+        <e p="CLientWindow.xaml" t="Include" />
+        <e p="CLientWindow.xaml.cs" t="Include" />
+        <e p="DataGridDrawer.cs" t="Include" />
+        <e p="HistogramDrawer.cs" t="Include" />
+        <e p="IGraphicDrawer.cs" t="Include" />
+        <e p="ITableDrawer.cs" t="Include" />
+      </e>
       <e p="DAO" t="Include">
         <e p="DatabaseDAO.cs" t="Include" />
         <e p="IDAO.cs" t="Include" />

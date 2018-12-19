@@ -26,11 +26,11 @@ namespace DbProject.DAO
             SqlDataReader dataReader = command.ExecuteReader();
             HashSet<IList<string>> result = new HashSet<IList<string>>();
             List<string> columnNames = new List<string>();
-            for (int i = 0; i < dataReader.FieldCount; i++)
+           /* for (int i = 0; i < dataReader.FieldCount; i++)
             {
                 columnNames.Add(dataReader.GetName(i));
             }
-
+            */
             result.Add(columnNames);
             while (dataReader.Read())
             {
